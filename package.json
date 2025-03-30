@@ -1,0 +1,10 @@
+{
+  "name": "api-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "newman run Restful-booker.postman_collection.json"
+  },
+  "devDependencies": {
+    "newman": "^6.2.1"
+  }
+}
